@@ -532,6 +532,7 @@ p{margin-bottom:0;font-size:15px;line-height:22px}
 .DScrollSection .ScrollSubject a span:hover{color:#555;}
 .DScrollSection .ScrollSubject a span{padding-right:25px;display:inline-block;margin-top:7px;font-size:18px;color:#333; font-weight:400;}
 .DScrollSection .ScrollSubject a span .SquareIcon{color:#333;display:inline-block;width:10px;height:10px;background:#c02026;margin-right:3px;border-radius:50%;}
+.DTop3NewsItem .Brief p{display: block;}
 
 
 
@@ -708,10 +709,11 @@ h1, h2, h3, h4, h5, h6{font-size:17px;line-height:26px;}
 }
 .MobileMenuShow .DAdd4 {display:flex !important; margin-top: 20px; justify-content: center;}
 .DFooterBg .col-md-4.d-flex.align-items-center.justify-content-end{justify-content: center !important;}
-}
 .DTop3NewsItem .Title{-webkit-line-clamp: 3;}
 .DTop3NewsItem .Brief p{display: none;}
 .fb-page-banner {margin-top: 20px;}
+}
+
 @media screen and (max-width:667px){
 .container{width:100%;}
 }
