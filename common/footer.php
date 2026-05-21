@@ -9,15 +9,14 @@
 	 </div>
 	 <div class="col-md-4 d-flex align-items-center justify-content-center  border-right-inner">
 		<div class="contact ">
-			<p>ফোন:</p>
-			<p>ফ্যাক্স: </p>
-			<p>ই-মেইল: <a href="mailto:" target="_blank"></a></p>
-			<p>ই-নিউজমিশণ: <a href="#" target="_blank"></a></p>
+			<p>ফোন: <a href="tel:01716-907637" target="_blank">01716-907637</a>, <a href="tel:01976-907637" target="_blank">01976-907637</a>  </p>
+			<p>ই-মেইল: <a href="mailto:newsmission.bd@gmail.com" target="_blank">newsmission.bd@gmail.com</a></p>
+			<p>ঠিকানা: ১৭৫/৫, পূর্ব রামপুরা, ঢাকা-১২১৯।</p>
 		</div>
 	  </div>
-	<div class="col-md-4 d-flex align-items-center justify-content-end">
+	<div class="col-md-4 d-flex align-items-center justify-content-center">
 		<div class="MoreInfo">
-			<p>সম্পাদক ও প্রকাশক: </p> 
+			<p>প্রকাশক ও সম্পাদক: মো: শহিদুল্লাহ </p> 
 		</div>
 	</div>
 	</div>
