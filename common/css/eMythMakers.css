@@ -709,6 +709,8 @@ h1, h2, h3, h4, h5, h6{font-size:17px;line-height:26px;}
 .MobileMenuShow .DAdd4 {display:flex !important; margin-top: 20px; justify-content: center;}
 .DFooterBg .col-md-4.d-flex.align-items-center.justify-content-end{justify-content: center !important;}
 }
+.DTop3NewsItem .Title{-webkit-line-clamp: 3;}
+.DTop3NewsItem .Brief p{display: none;}
 @media screen and (max-width:667px){
 .container{width:100%;}
 }
