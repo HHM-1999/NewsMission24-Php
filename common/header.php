@@ -203,7 +203,7 @@ $dtDateBN=$date[0]."&nbsp;".$date[1]."&nbsp;".$date[2];
 		<li><a href="#">জাতীয়</a></li>
 		<li><a href="#">রাজনীতি</a></li>
 		<li class="parent">
-			<a href="#">বাংলাদেশ</a>
+			<a href="#">সারাদেশ</a>
 			<ul class="SubMenuM">
 				<li><a href="#">ঢাকা</a></li>
 				<li><a href="#">চট্টগ্রাম</a></li>
@@ -216,7 +216,7 @@ $dtDateBN=$date[0]."&nbsp;".$date[1]."&nbsp;".$date[2];
 			</ul>
 		</li>
 		<li class="parent">
-			<a href="#">বিদেশ</a>
+			<a href="#">আন্তর্জাতিক</a>
 			<ul class="SubMenuM">
 				<li><a href="#">এশিয়া</a></li>
 				<li><a href="#">ইউরোপ</a></li>
@@ -228,10 +228,12 @@ $dtDateBN=$date[0]."&nbsp;".$date[1]."&nbsp;".$date[2];
 			</ul>
 		</li>
 		<li class="parent">
-			<a href="#">খেলা</a>
+			<a href="#">খেলাধুলা</a>
 			<ul class="SubMenuM">
 				<li><a href="#">ক্রিকেট</a></li>
 				<li><a href="#">ফুটবল</a></li>
+				<li><a href="">হকি</a></li>
+				<li><a href="">টেনিস</a></li>
 				<li><a href="#">আরও</a></li>
 			</ul>
 		</li>
@@ -249,58 +251,45 @@ $dtDateBN=$date[0]."&nbsp;".$date[1]."&nbsp;".$date[2];
 		<li class="parent">
 			<a href="#">অর্থনীতি</a>
 			<ul class="SubMenuM">
-				<li><a href="#">শিল্প</a></li>
-				<li><a href="#">রাজস্ব</a></li>
-				<li><a href="#">শেয়ারবাজার</a></li>
-				<li><a href="#">ব্যাংক</a></li>
-				<li><a href="#">কর্পোরেট</a></li>
-				<li><a href="#">ই-কমার্স</a></li>
-				<li><a href="#">আরও</a></li>
+				<li><a href="">ব্যাংক</a></li>
+				<li><a href="">বীমা</a></li>
+				<li><a href="">শেয়ার বাজার</a></li>
+				<li><a href="">শিল্প</a></li>
+				<li><a href="">অন্যান্য</a></li>
 			</ul>
 		</li>
 		<li class="parent">
 			<a href="#">লাইফস্টাইল</a>
 			<ul class="SubMenuM">
-				<li><a href="#">স্বাস্থ্য</a></li>
-				<li><a href="#">শিক্ষা</a></li>
-				<li><a href="#">ফ্যাশন</a></li>
-				<li><a href="#">নারী</a></li>
-				<li><a href="#">রেসিপি</a></li>
-				<li><a href="#">ভ্রমণ</a></li>
-				<li><a href="#">প্রযুক্তি</a></li>
-				<li><a href="#">ইন্টারনেট</a></li>
-				<li><a href="#">আরও</a></li>
+			<li><a href="">স্বাস্থ্য পরামর্শ</a></li>
+			<li><a href="">টিপস</a></li>
+			<li><a href="">রূপচর্চা</a></li>
+			<li><a href="">রেসিপি</a></li>
+			<li><a href="">ফ্যাশন</a></li>
+			<li><a href="">নারী</a></li>
+			<li><a href="">শিশু</a></li>
+			<li><a href="">ঘরোয়া উপায়</a></li>
 			</ul>
 		</li>
-		<li class="parent">
-			<a href="#">চাকরি</a>
-			<ul class="SubMenuM">
-				<li><a href="#">নিয়োগ</a></li>
-			</ul>
-		</li>
-		<li class="parent">
-			<a href="#">ভিডিও</a>
-			<ul class="SubMenuM">
-				<li><a href="#">ভিডিও ১</a></li>
-				<li><a href="#">ভিডিও ২</a></li>
-				<li><a href="#">ভিডিও ৩</a></li>
-				<li><a href="#">ভিডিও ৪</a></li>
-			</ul>
-		</li>
+		<li><a href="#">চাকরি</a></li>
 		<li class="parent">
 			<a href="#">আরও</a>
 			<ul class="SubMenuM">
-				<li><a href="#">টুকরো</a></li>
-				<li><a href="#">রাশিফল</a></li>
-				<li><a href="#">ক্যাম্পাস</a></li>
-				<li><a href="#">সাহিত্য</a></li>
-				<li><a href="#">মতামত</a></li>
-				<li><a href="#">পরিবেশ</a></li>
-				<li><a href="#">আবহাওয়া</a></li>
-				<li><a href="#">ভিন্নখবর</a></li>
-				<li><a href="#">কোভিড ১৯</a></li>
-				<li><a href="#">ছবি</a></li>
-				<li><a href="#">আর্কাইভস</a></li>
+			<li><a href="#">আইন-আদালত</a></li>
+			<li><a href="#">শিক্ষা</a></li>
+			<li><a href="#">স্বাস্থ্য</a></li>
+			<li><a href="#">তথ্যপ্রযক্তি</a></li>
+			<li><a href="#">ভ্রমন</a></li>
+			<li><a href="#">প্রবাস</a></li>
+			<li><a href="#">শিল্প-সাহিত্য</a></li>
+			<li><a href="#">গণমাধ্যম</a></li>
+			<li><a href="#">কৃষি</a></li>
+			<li><a href="#">মতামত</a></li>
+			<li><a href="#">পরিবেশ</a></li>
+			<li><a href="#">আবহাওয়া</a></li>
+			<li><a href="#">ধর্ম</a></li>
+			<li><a href="#">ভিন্নখবর</a></li>
+			<li><a href="#">আর্কাইভস</a></li>
 			</ul>
 		</li>
 	</ul>
