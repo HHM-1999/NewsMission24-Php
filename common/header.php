@@ -66,12 +66,81 @@ $dtDateBN=$date[0]."&nbsp;".$date[1]."&nbsp;".$date[2];
 				<li class="nav-item"><a class="nav-link" href="#">সর্বশেষ</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">জাতীয়</a></li>
 				<li class="nav-item"><a class="nav-link" href="#">রাজনীতি</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">সারাদেশ</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">আন্তর্জাতিক</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">খেলাধুলা</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">অর্থনীতি</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">বিনোদন</a></li>
-				<li class="nav-item"><a class="nav-link" href="#">লাইফস্টাইল</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">সারাদেশ <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">ঢাকা</a></li>
+						<li><a class="dropdown-item" href="">চট্টগ্রাম</a></li>
+						<li><a class="dropdown-item" href="">রাজশাহী</a></li>
+						<li><a class="dropdown-item" href="">খুলনা</a></li>
+						<li><a class="dropdown-item" href="">বরিশাল</a></li>
+						<li><a class="dropdown-item" href="">সিলেট</a></li>
+						<li><a class="dropdown-item" href="">রংপুর</a></li>
+						<li><a class="dropdown-item" href="">ময়মনসিংহ</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">আন্তর্জাতিক <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">এশিয়া</a></li>
+						<li><a class="dropdown-item" href="">ইউরোপ</a></li>
+						<li><a class="dropdown-item" href="">আমেরিকা</a></li>
+						<li><a class="dropdown-item" href="">আফ্রিকা</a></li>
+						<li><a class="dropdown-item" href="">অস্ট্রেলিয়া</a></li>
+						<li><a class="dropdown-item" href="">মধ্যপ্রাচ্য</a></li>
+						<li><a class="dropdown-item" href="">আরও</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">খেলাধুলা <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">ক্রিকেট</a></li>
+						<li><a class="dropdown-item" href="">ফুটবল</a></li>
+						<li><a class="dropdown-item" href="">হকি</a></li>
+						<li><a class="dropdown-item" href="">টেনিস</a></li>
+						<li><a class="dropdown-item" href="">অন্যান্য</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">অর্থনীতি <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">ব্যাংক</a></li>
+						<li><a class="dropdown-item" href="">বীমা</a></li>
+						<li><a class="dropdown-item" href="">শেয়ার বাজার</a></li>
+						<li><a class="dropdown-item" href="">শিল্প</a></li>
+						<li><a class="dropdown-item" href="">অন্যান্য</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">বিনোদন <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">চলচিত্র</a></li>
+						<li><a class="dropdown-item" href="">নাটক</a></li>
+						<li><a class="dropdown-item" href="">গান</a></li>
+						<li><a class="dropdown-item" href="">স্বাক্ষাতকার</a></li>
+						<li><a class="dropdown-item" href="">ওটিটি</a></li>
+						<li><a class="dropdown-item" href="">আরও</a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+						data-bs-toggle="dropdown disable" aria-expanded="false">লাইফস্টাইল <i class="fa fa-angle-down"></i></a>
+					<ul class="dropdown-menu DiplayInline" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="">স্বাস্থ্য পরামর্শ</a></li>
+						<li><a class="dropdown-item" href="">টিপস</a></li>
+						<li><a class="dropdown-item" href="">রূপচর্চা</a></li>
+						<li><a class="dropdown-item" href="">রেসিপি</a></li>
+						<li><a class="dropdown-item" href="">ফ্যাশন</a></li>
+						<li><a class="dropdown-item" href="">নারী</a></li>
+						<li><a class="dropdown-item" href="">শিশু</a></li>
+						<li><a class="dropdown-item" href="">ঘরোয়া উপায়</a></li>
+					</ul>
+				</li>
 				<li class="nav-item"><a class="nav-link" href="#">চাকরি</a></li>
 				<li class="nav-item dropdown  has-megamenu">
 					<a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
