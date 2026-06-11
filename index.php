@@ -53,6 +53,24 @@ echo $sCSSOwlMin; ?>
 
 <main>
 <div class="container">
+		<!-- ========== Advertisement ========== -->
+		<div class="row">
+		<div class="col-md-12 MobileHide">
+			<div class="headerbottomads d-flex justify-content-center">
+				<a href="<?php echo $sSiteURL; ?>">
+					<img src="<?php echo $sSiteURL; ?>media/Advertisement/Advertisement(970X90).png" alt="Header Advertisement" title="Header Advertisement" class="img-fluid img100">
+				</a>
+			</div>
+			
+		</div>
+		<div class="col-md-12 MobileMenuShow">
+			<div class="DAdd4">
+				<a href="<?php echo $sSiteURL; ?>">
+					<img src="<?php echo $sSiteURL; ?>media/Advertisement/Advertisement(300X90).png" alt="Header Advertisement" title="Header Advertisement" class="img-fluid img100">
+				</a>
+			</div>
+		</div>
+	</div>
 	<!-- ========== Special Section ========== -->
 	<div class="DSpecialSecBanner MobileHide2" style="display: none;">
 		<a href="#"><img src="<?php echo $sSiteURL; ?>/media/common/ukraine-russia.png" alt="" title="" class="img-fluid img100"></a>
@@ -1156,9 +1174,9 @@ echo $sCSSOwlMin; ?>
 			</div>
 		</div>
 	</div>
-	<!-- ========== খেলাধুলা ========== -->
-	<div class="SPSecTitle"><a href="#"><h2><i class="fa-solid fa-circle"></i>খেলাধুলা</h2></a></div>
-	<div class="DSports">
+	<!-- ========== অর্থনীতি ========== -->
+	<div class="SPSecTitle"><a href="#"><h2><i class="fa-solid fa-circle"></i>অর্থনীতি</h2></a></div>
+	<div class="DEconomics">
 		<div class="row">
 			<div class="col-lg-8 col-12 border-right-inner1">
 				<div class="DSportsTop">
@@ -1168,7 +1186,7 @@ echo $sCSSOwlMin; ?>
 								<div class="Imgresize">
 									<figure class="ImgViewer">
 										<picture class="FixingRatio">
-											<img src="<?php echo $sSiteURL; ?>media/imgAll/21195097e4ff0789f77846105806651a-6170fa1aca96b.jpg" alt="" title="" class="img-fluid img100 ImgRatio">
+											<img src="<?php echo $sSiteURL; ?>media/imgAll/Onion-samakal-5e5d2d9a6f64e-samakal-5f64db33958aa.jpg " alt="" title="" class="img-fluid img100 ImgRatio">
 										</picture>
 									</figure>
 								</div>
@@ -1177,7 +1195,7 @@ echo $sCSSOwlMin; ?>
 								<div class="Desc">
 									<h3 class="Title TitleBold LeadTitle">প্রয়োজনে নিজেকে একাদশ থেকে সরিয়ে রাখবেন মরগান!</h3>
 									<div class="Brief">
-										<p>ইংল্যান্ডের ২০১৯ বিশ্বকাপজয়ী অধিনায়ক এউইন মরগান। এখনো ইংলিশদের নেতৃত্বে আছেন তিনি। তবে সময়টা খুব একটা ভালো যাচ্ছে না মরগানের। বিশেষ করে ব্যাটিংয়ে। সাম্প্রতিক সময়ে ফর্মটা বেশ পড়তির দিকে তাঁর। এ নিয়ে এরই মধ্যে বেশ সমালোচনার মুখে পড়েছেন তিনি। </p>
+										<p>কেক বাজারে একেক দামে পেঁয়াজ বিক্রি হচ্ছে। এ নিয়ে ক্ষোভ প্রকাশ করেছেন ব্যবসায়ীদের শীর্ষ সংগঠন এফবিসিসিআইয়ের সভাপতি জসিম উদ্দিন। আজ রোববার দুপুরে সংগঠনের মতিঝিলের কার্যালয়ে নিত্যপণ্যের মজুদ, সরবরাহ ও মূল্য পরিস্থিতি নিয়ে এক বৈঠকে ক্ষোভ প্রকাশ করেন তিনি।</p>
 									</div>
 								</div>
 							</div>
@@ -1361,22 +1379,22 @@ echo $sCSSOwlMin; ?>
 			</div>
 		</div>
 	</div>
-	<!-- ========== অর্থনীতি ========== -->
-	<div class="SPSecTitle"><a href="#"><h2><i class="fa-solid fa-circle"></i>অর্থনীতি</h2></a></div>
-	<div class="DEconomics">
+	<!-- ========== খেলাধুলা ========== -->
+	<div class="SPSecTitle"><a href="#"><h2><i class="fa-solid fa-circle"></i>খেলাধুলা</h2></a></div>
+	<div class="DSports ">
 		<div class="row">
 			<div class="col-lg-6 col-sm-12 border-right-inner1">
 				<div class="DEconomicsTop align-self-stretch">
 					<a href="#">
 						<div class="Imgresize">
 							<figure class="ImgViewer">
-								<picture class="FixingRatio"><img src="<?php echo $sSiteURL; ?>media/imgAll/Onion-samakal-5e5d2d9a6f64e-samakal-5f64db33958aa.jpg" alt="" title="" class="img-fluid img100 ImgRatio" style="">
+								<picture class="FixingRatio"><img src="<?php echo $sSiteURL; ?>media/imgAll/21195097e4ff0789f77846105806651a-6170fa1aca96b.jpg" alt="" title="" class="img-fluid img100 ImgRatio" style="">
 								</picture>
 							</figure>
 						</div>
 						<div class="Desc">
-							<h3 class="Title LeadTitle TitleBold">বাজার ভেদে আলাদা পেঁয়াজের দাম, এফবিসিসিআই সভাপতির ক্ষোভ</h3>
-							<div class="Brief"><p>একেক বাজারে একেক দামে পেঁয়াজ বিক্রি হচ্ছে। এ নিয়ে ক্ষোভ প্রকাশ করেছেন ব্যবসায়ীদের শীর্ষ সংগঠন এফবিসিসিআইয়ের সভাপতি জসিম উদ্দিন। আজ রোববার দুপুরে সংগঠনের মতিঝিলের কার্যালয়ে নিত্যপণ্যের মজুদ, সরবরাহ ও মূল্য পরিস্থিতি নিয়ে এক বৈঠকে ক্ষোভ প্রকাশ করেন তিনি।</p></div>
+							<h3 class="Title LeadTitle TitleBold">প্রয়োজনে নিজেকে একাদশ থেকে সরিয়ে রাখবেন মরগান!</h3>
+							<div class="Brief">										<p>ইংল্যান্ডের ২০১৯ বিশ্বকাপজয়ী অধিনায়ক এউইন মরগান। এখনো ইংলিশদের নেতৃত্বে আছেন তিনি। তবে সময়টা খুব একটা ভালো যাচ্ছে না মরগানের। বিশেষ করে ব্যাটিংয়ে। সাম্প্রতিক সময়ে ফর্মটা বেশ পড়তির দিকে তাঁর। এ নিয়ে এরই মধ্যে বেশ সমালোচনার মুখে পড়েছেন তিনি। </p></div>
 						</div>
 					</a>
 				</div>
